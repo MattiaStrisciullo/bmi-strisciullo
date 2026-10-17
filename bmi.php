@@ -42,7 +42,7 @@ if ($bmi >= 25 && $bmi <= 29.9) {
         </div>
 
         <br>
-        <a href="index.php">Calcola di nuovo</a>
+        <a href="form.html">Calcola di nuovo</a>
     </div>
 </body>
 </html>
