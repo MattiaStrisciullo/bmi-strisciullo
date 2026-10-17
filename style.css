@@ -1,0 +1,95 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 320px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.btn-calcola {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 320px;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.card-sottopeso {
+    background-color: #E3EEF9;
+    border: 2px solid #2F6FB3;
+    color: #2F6FB3;
+}
+
+.card-normopeso {
+    background-color: #E3F4E6;
+    border: 2px solid #256D34;
+    color: #256D34;
+}
+
+.card-sovrappeso {
+    background-color: #FCEBD7;
+    border: 2px solid #9A4F06;
+    color: #9A4F06;
+}
+
+.card-obesita {
+    background-color: #FBE2E2;
+    border: 2px solid #B32D2D;
+    color: #B32D2D;
+}
